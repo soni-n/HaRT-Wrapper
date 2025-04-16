@@ -1,0 +1,8 @@
+torch
+transformers[torch]
+pandas
+more_itertools
+scikit-learn
+#optuna
+#mysqlclient
+#SQLAlchemy

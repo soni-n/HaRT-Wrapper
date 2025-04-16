@@ -1,0 +1,6 @@
+recursive-exclude src/hart/data/datasets/ *.pkl*
+recursive-exclude src/hart/data/datasets/ *.csv*
+recursive-exclude src/hart/data/initial_history/ *.csv*
+recursive-exclude src/hart/data/initial_history/ *.txt*
+recursive-exclude src/hart/scripts/ *.sh*
+recursive-exclude src/hart/extra_utils *

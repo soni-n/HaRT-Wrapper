@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where=["src"]
+
+[project]
+keywords = ["hart", "hulm"]
+name = "hart-wrapper"
+version = "3.0"
+authors = [
+  { name="Nikita Soni", email="nisoni@cs.stonybrook.edu" },
+]
+description = "HaRT package test"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "torch",
+    "transformers[torch]",
+    "more_itertools",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/humanlab/HaRT"
+Issues = "https://github.com/humanlab/HaRT/issues"
