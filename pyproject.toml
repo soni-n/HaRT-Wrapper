@@ -11,7 +11,7 @@ where=["src"]
 [project]
 keywords = ["hart", "hulm"]
 name = "hart-wrapper"
-version = "3.0"
+version = "1.0"
 authors = [
   { name="Nikita Soni", email="nisoni@cs.stonybrook.edu" },
 ]
