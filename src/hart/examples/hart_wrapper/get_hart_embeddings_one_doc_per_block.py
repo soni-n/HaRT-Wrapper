@@ -23,7 +23,7 @@ def get_hart_embeddings(
         order_by_column=None,
         retain_original_order=True,
         return_document_embeddings=False,
-        return_user_representation_as_mean_user_states=False,
+        return_user_representation_as_mean_user_states=True,
         return_last_token_as_user_representation=False,
         use_insep_as_last_token=False,
         return_all_user_states=False,
